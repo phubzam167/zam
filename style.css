@@ -1,0 +1,47 @@
+#nav-bar{
+    height: 20vh;
+    width:auto;
+    background-color: rgba(255, 0, 0, 0.5);
+}
+#body-bar{
+    height:200vh;
+    width:auto;
+    background-color:cornflowerblue;
+}
+.logo{
+    margin-top: 20px;
+    
+
+    
+}
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: black;
+    left: 200px;
+
+
+}
+
+ul li {
+
+    list-style: none;
+    padding: 10px;
+    cursor: pointer;
+
+}
+ul li:hover {
+    color: #ffffff;
+    border-radius: 5px;
+    transition: 0.5s ease;
+
+}
+.king{
+    display: block;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    padding:auto;
+}
